@@ -1,0 +1,15 @@
+[project]
+name = "calling-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "databricks-mcp>=0.4.0",
+    "httpx>=0.28.1",
+    "ipykernel>=7.0.1",
+    "langchain>=1.0.2",
+    "langchain-groq>=1.0.0",
+    "mcp-client>=0.0.0",
+    "pywin32>=311",
+]
